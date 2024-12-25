@@ -1,0 +1,51 @@
+.liked > svg {
+    fill: red;
+    stroke: red;
+}
+
+.likebutton {
+    display: inline;
+    height: 100%;
+    cursor: pointer;
+}
+
+.likebutton > svg {
+    margin-top: 5px;
+}
+
+.likebutton:active{
+    transform: scale(0.90);
+}
+
+.searchBarForm {
+    max-height: 40px;
+}
+
+.btnConnexion {
+    height: 31px;
+}
+
+.pageContainer {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-gap: 10px;
+    /*grid-auto-rows: minmax(100px, auto);*/
+}
+
+.grid-hierarchie {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    margin: 1.5em 0 0 6px;
+    position: fixed;
+    width: 22%;
+}
+
+.grid-container {
+    grid-column: 4 / 14;
+    grid-row: 1;
+}
+
+.contentContainer {
+    margin-top: 80px;
+}
